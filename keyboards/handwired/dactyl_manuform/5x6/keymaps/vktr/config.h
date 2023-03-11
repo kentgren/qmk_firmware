@@ -1,5 +1,5 @@
 /*
-Copyright 2022 David Falkner (falkner@martica.org)
+Copyright 2012 Jun Wako <wakojun@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,4 +17,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define KINETIC_SPEED
+#define EE_HANDS
+#define SPLIT_USB_DETECT
+
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 0
+
+#define BOOTMAGIC_LITE_ROW_RIGHT 6
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 0
+
+// #define USE_SERIAL
+
+#define COMBO_COUNT 5
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+#define AUTO_SHIFT_MODIFIERS

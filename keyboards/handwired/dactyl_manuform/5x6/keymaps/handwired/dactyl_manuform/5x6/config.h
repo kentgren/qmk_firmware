@@ -1,5 +1,5 @@
 /*
-Copyright 2022 David Falkner (falkner@martica.org)
+Copyright 2012 Jun Wako <wakojun@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,4 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define KINETIC_SPEED
+#define MASTER_LEFT
+//#define MASTER_RIGHT
+
+//#define EE_HANDS

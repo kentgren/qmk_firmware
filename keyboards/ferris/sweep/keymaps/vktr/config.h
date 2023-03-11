@@ -1,5 +1,5 @@
 /*
-Copyright 2022 David Falkner (falkner@martica.org)
+Copyright 2020 Pierre Chevalier <pierrechevalier83@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,4 +17,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define KINETIC_SPEED
+// Pick good defaults for enabling homerow modifiers
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+
+// Combo Count, Needs to be Updated
+#define COMBO_COUNT 6
+#define AUTO_SHIFT_MODIFIERS
